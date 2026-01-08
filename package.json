@@ -1,0 +1,12 @@
+{
+    "name": "shree_polymer_products",
+    "version": "1.0.0",
+    "scripts": {
+        "postinstall": "cd spp_console && yarn install && cd ../production_console && yarn install",
+        "dev:spp": "cd spp_console && yarn dev",
+        "dev:prod": "cd production_console && yarn dev",
+        "build:spp": "cd spp_console && yarn build",
+        "build:prod": "cd production_console && yarn build",
+        "build": "yarn build:spp && yarn build:prod"
+    }
+}

@@ -70,6 +70,11 @@ app_license = "mit"
 # automatically create page for each record of this doctype
 # website_generators = ["Web Page"]
 
+website_route_rules = [
+    {"from_route": "/spp_console/<path:app_path>", "to_route": "spp_console"},
+    {"from_route": "/production_console/<path:app_path>", "to_route": "production_console"},
+]
+
 # Jinja
 # ----------
 
