@@ -12,7 +12,7 @@ import {
     type SortingState,
     type VisibilityState,
 } from "@tanstack/react-table"
-import { ArrowUpDown, ChevronDown, MoreHorizontal, Plus, Eye, FileEdit, Ban, FileText, Timer, CheckCircle2, XCircle } from "lucide-react"
+import { ArrowUpDown, ChevronDown, MoreHorizontal, Plus, Eye, FileText, Timer, CheckCircle2, XCircle } from "lucide-react"
 import { useNavigate } from "react-router-dom"
 import { format } from "date-fns"
 
@@ -37,8 +37,7 @@ import {
     TableRow,
 } from "@/components/ui/table"
 import { Badge } from "@/components/ui/badge"
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
-import { Separator } from "@/components/ui/separator"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { usePageHeader } from '@/components/page-header-context'
 
 // --- Types & Mock Data ---

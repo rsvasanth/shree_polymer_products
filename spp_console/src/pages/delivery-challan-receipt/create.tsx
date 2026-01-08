@@ -4,9 +4,7 @@ import { useState, useEffect } from "react"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { z } from "zod"
-import { CalendarIcon, Check, ChevronsUpDown, Loader2, Plus, ScanBarcode, Trash2 } from "lucide-react"
-import { format } from "date-fns"
-import { Calendar } from "@/components/ui/calendar"
+import { Check, ChevronsUpDown, Loader2, Plus, ScanBarcode, Trash2 } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -28,7 +26,6 @@ import {
 import {
     Form,
     FormControl,
-    FormDescription,
     FormField,
     FormItem,
     FormLabel,
