@@ -1,13 +1,13 @@
 "use client"
 
-import { IconChevronRight, type Icon } from "@tabler/icons-react"
+import { IconChevronRight } from "@tabler/icons-react"
 import { Link } from "react-router-dom"
 
 import {
     Collapsible,
     CollapsibleContent,
     CollapsibleTrigger,
-} from "@/components/ui/collapsible"
+} from "./ui/collapsible"
 import {
     SidebarGroup,
     SidebarGroupLabel,
@@ -25,7 +25,7 @@ export function NavProcesses({
     items: {
         title: string
         url: string
-        icon?: Icon
+        icon?: React.ComponentType<any>
         isActive?: boolean
         items?: {
             title: string
